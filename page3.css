@@ -1,0 +1,75 @@
+
+* {
+    box-sizing: border-box;
+    margin:0 ;
+    padding: 2px;
+    }
+    
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    }
+    
+    .subtitle {
+    overflow: hidden;
+    background-color: rgb(243, 135, 4);
+       }
+    
+   
+    .subtitle a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    }
+    
+   
+    .box {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .imgDiv {
+    border: 5px solid black ;
+    width: 50%;
+    height: 150px;
+    padding: 10px;
+    background-color:#c0bdbd;
+    }
+    
+    .imgcontent {
+    border: 5px solid black ;
+    flex: 100%;
+    background-color: #c0bdbd;
+    color: chocolate;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    
+    }
+   
+    .PlayMusic{ 
+    display: flex;
+    flex-wrap: wrap;
+    flex: 100%;
+    padding: 14px 20px;
+    padding-left: 50%;
+    background-color:black;
+    color: chocolate;
+    }
+   
+    .fakeimg {
+      width: 30%;
+      height: auto;
+      padding: 30px;
+    }
+    .footer {
+    padding: 20px;
+    text-align: center;
+    background: chocolate;
+    }
+    
+ 
+
